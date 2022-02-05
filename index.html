@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenWeather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  
+  <div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+         <source src="gif.mp4" type="video/webm"> 
+       
+        
+    </video>
+</div>
+<div class="video">
+  <div class="fullscreen-bg1 post">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video1">
+       
+        <source src="gif2.mp4" type="video/mp4">
+        
+    </video>
+  
+  </div>
+</div>
+
+    <form class="form" id="form" >
+        <input class="form-two" type="text" placeholder="CityName" id="input" autocomplete="off">
+        <button class="btn">Search</button>
+    </form>
+
+
+    <div class="weather">
+  
+        <div class="weather-box">
+            <div class="weather-round">
+                <h2 id="degree">deg</h2>
+                <span id="feels">Feels like</span>
+            </div>
+                <div class="container">
+                    <h2 id="min">Min deg</h2>
+                    <h2 id="wind">Wind deg mph</h2>
+                    <h1 id="city">city name</h1>
+                    <h2 id="max">Max deg</h2>
+                </div>
+        </div>
+    </div>
+
+
+ 
+    <script src="js/script.js"></script>
+</body>
+</html>
